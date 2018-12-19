@@ -1,0 +1,73 @@
+html {
+
+    background-image: url(../Images/background.jpg);
+
+}
+
+body {
+
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    font-size: 20px;
+    line-height: 1.5;
+    max-width: auto;
+    padding: 3em 3em 3em;
+    object-position: center;
+
+}
+
+body {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font: "Alegreya";
+    object-position: center;
+
+}
+
+a {
+    font: "LuckiestGuy";
+    font-size: 12pt;
+    object-position: center;
+    color: #0083e8;
+    align-items: center;
+}
+
+a:hover {
+    color: #4c4b4d;
+    background-color: beige;
+
+}
+
+
+img {
+    animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
+
+    border: 15px solid rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    display: block;
+    margin: 1.3em auto;
+    max-width: 1oo%;
+}
+
+video {
+    animation: colorize 1s cubic-bezier(0, 0, .78, .36) 1;
+
+    border: 15px solid rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    display: block;
+    margin: 1.3em auto;
+    max-width: 100%;
+
+
+}
+
+@keyframes colorize {
+    0% {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+
+    100% {
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
+    }
